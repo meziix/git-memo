@@ -31,3 +31,12 @@ commande : git log
 
 description : affiche l'historique des commits réalisés. Pour quitter cette commande il est souvent sécessaire d'appuyer sur "q".
 
+commande : git remote add origin <url>
+
+description : configure le projet pour l'associer à un dépot git sur github.
+Le dépot distant, est appelé "origin" (c'est une convention). Cette configuration est à faire une fois par projet git, et seulement si l'on souhaite le partager / le sauvegarder sur github.
+
+commande : git push -u origin master
+description : configure notre projet pour qu'il s'envoie par défaut sur le dépot "origin" et sur sa branche "master"
+Cette commande n'est a entrer qu'une fois par projet.
+Cette commande nécessite d'avoir ajouté un depot avec la commande "git remote"
