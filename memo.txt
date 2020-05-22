@@ -15,3 +15,7 @@ permet d'indiquer à git d'ajouter les modifications ciblées au prochain commit
 Les modifications seront passées de la zone rouge, qui ne sont pas prises en comptes lors d'un commit, à la zone verte. Quand une modification est dans la zone verte, on peut faire un commit.
 En gros, c'est un "attention on va sauvegarder, prépare-toi!"
 
+commande : git commit -m <message>
+
+description : la commande d'enregistrement des modifications. Une fois les modifs ajoutées avec "git add", la commande commit permet d'enregistrer défininitivement nos modifs, censé décrire les modifications effectuées.
+
