@@ -40,3 +40,7 @@ commande : git push -u origin master
 description : configure notre projet pour qu'il s'envoie par défaut sur le dépot "origin" et sur sa branche "master"
 Cette commande n'est a entrer qu'une fois par projet.
 Cette commande nécessite d'avoir ajouté un depot avec la commande "git remote"
+
+commande : git push
+description : envoie nos modifications
+enregistrées vers le dépot distant configuré avec la commande
